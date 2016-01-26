@@ -1,0 +1,29 @@
+{
+  "name": "angular2-uuid",
+  "version": "1.0.0",
+  "description": "Angular 2 / TypeScript crypto-secure UUID generator",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wulfsolter/angular2-uuid.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "ionic",
+    "uuid",
+    "guid",
+    "TypeScript",
+    "crypto",
+    "secure"
+  ],
+  "author": "Wulf Solter <wulf@wulf.co.nz> (http://wulf.co.nz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wulfsolter/angular2-uuid/issues"
+  },
+  "homepage": "https://github.com/wulfsolter/angular2-uuid#readme"
+}
