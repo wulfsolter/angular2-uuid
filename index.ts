@@ -1,4 +1,3 @@
-/*jshint bitwise: false*/
 "use strict";
 
 export class UUID {
