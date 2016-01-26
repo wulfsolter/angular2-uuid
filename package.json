@@ -1,6 +1,6 @@
 {
   "name": "angular2-uuid",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular 2 / TypeScript crypto-secure UUID generator",
   "main": "index.js",
   "typings": "./index.d.ts",
