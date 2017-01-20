@@ -4,7 +4,7 @@ var UUID = (function () {
         // no-op
     }
     UUID.UUID = function () {
-        if (typeof (window.crypto) !== "undefined" && typeof (window.crypto.getRandomValues) !== "undefined") {
+        if (typeof (window) !== "undefined" && typeof (window.crypto) !== "undefined" && typeof (window.crypto.getRandomValues) !== "undefined") {
             // If we have a cryptographically secure PRNG, use that
             // http://stackoverflow.com/questions/6906916/collisions-when-generating-uuids-in-javascript
             var buf = new Uint16Array(8);
