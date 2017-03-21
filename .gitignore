@@ -12,3 +12,6 @@ Thumbs.db
 *.d.ts
 
 .history
+
+# VS Code
+.vscode
