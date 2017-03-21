@@ -12,5 +12,5 @@ import { UuidService } from 'angular2-uuid-service';
 ...
 constructor(private uuid: UuidService) { ... }
 ...
-let uuid = uuid.generate();
+const uuid = this.uuid.generate();
 ```
