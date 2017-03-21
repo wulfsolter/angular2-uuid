@@ -1,14 +1,16 @@
-# angular2-uuid
+# angular2-uuid-service
 Angular 2 UUID generator.
 Uses crypto-secure PRNG window.crypto.getRandomValues() if available, otherwise fallback to Math.random();
 
 ## Install
-`npm install angular2-uuid --save`
+`npm install angular2-uuid-service --save`
 
 ## Use
 Include in Angular2 / Ionic2 project with
 ```
-import { UUID } from 'angular2-uuid';
+import { UuidService } from 'angular2-uuid-service';
 ...
-let uuid = UUID.UUID();
+constructor(private uuid: UuidService) { ... }
+...
+let uuid = uuid.generate();
 ```
