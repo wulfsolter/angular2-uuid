@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var UUID = (function () {
     function UUID() {
         // no-op
