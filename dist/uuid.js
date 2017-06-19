@@ -34,4 +34,4 @@ var UUID = (function () {
     return UUID;
 }());
 exports.UUID = UUID;
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=uuid.js.map
