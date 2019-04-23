@@ -1,3 +1,5 @@
+# THIS PROJECT IS NOT MAINTAINED #
+
 # angular2-uuid
 Angular 2 UUID generator.
 Uses crypto-secure PRNG window.crypto.getRandomValues() if available, otherwise fallback to Math.random();
